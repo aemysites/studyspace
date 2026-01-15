@@ -1,0 +1,6 @@
+/* Metadata block should be hidden */
+.metadata-container,
+.metadata-wrapper,
+.metadata {
+  display: none !important;
+}

@@ -1,0 +1,305 @@
+/* Marquee Block - StudySpace Quiz Maker */
+
+.marquee-container {
+  background-color: #eeeeee;
+}
+
+.marquee-container .marquee-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.marquee {
+  padding: 40px 24px;
+  background-color: #eeeeee;
+}
+
+/* Row container - two column layout */
+.marquee > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (width >= 900px) {
+  .marquee {
+    padding: 60px 32px;
+  }
+
+  .marquee > div {
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+  }
+}
+
+/* Content Column (left) */
+.marquee > div > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+}
+
+@media (width >= 900px) {
+  .marquee > div > div:first-child {
+    max-width: 500px;
+    gap: 24px;
+  }
+}
+
+/* Media Column (right) */
+.marquee > div > div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.marquee > div > div:last-child picture,
+.marquee > div > div:last-child img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #c4c4c4;
+}
+
+@media (width >= 1200px) {
+  .marquee > div > div:last-child picture,
+  .marquee > div > div:last-child img {
+    max-width: 550px;
+  }
+}
+
+/* Product Lockup - first paragraph with image */
+.marquee > div > div:first-child > p:first-child {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin: 0;
+}
+
+.marquee > div > div:first-child > p:first-child img {
+  width: 32px;
+  height: auto;
+}
+
+.marquee > div > div:first-child > p:first-child strong {
+  font-family: var(--body-font-family);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: -0.42px;
+  color: #2c2c2c;
+}
+
+/* Main Headline */
+.marquee h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -2px;
+  color: #000;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .marquee h1 {
+    font-size: 72px;
+    letter-spacing: -3px;
+  }
+}
+
+@media (width >= 1200px) {
+  .marquee h1 {
+    font-size: 96px;
+    line-height: 94px;
+    letter-spacing: -4.32px;
+  }
+}
+
+/* Description paragraph */
+.marquee > div > div:first-child > p:nth-of-type(2) {
+  font-family: var(--body-font-family);
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .marquee > div > div:first-child > p:nth-of-type(2) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+/* Value Props - bold paragraph */
+.marquee > div > div:first-child > p:nth-of-type(3) {
+  margin: 0;
+}
+
+.marquee > div > div:first-child > p:nth-of-type(3) strong {
+  font-family: var(--body-font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.6px;
+  color: #000;
+}
+
+@media (width >= 900px) {
+  .marquee > div > div:first-child > p:nth-of-type(3) strong {
+    font-size: 20px;
+  }
+}
+
+/* ============================================
+   DROPZONE - File upload area
+   ============================================ */
+.marquee .dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  background-color: #f7f7f7;
+  border: 1px dashed #8f8f8f;
+  border-radius: 24px;
+  text-align: center;
+}
+
+/* CTA Button inside dropzone */
+.marquee .dropzone .button-container {
+  margin: 0;
+}
+
+.marquee .dropzone a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px 14px;
+  background-color: #3b63fb;
+  color: #fff;
+  font-family: var(--body-font-family);
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  border-radius: 100px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 0;
+}
+
+.marquee .dropzone a.button:hover {
+  background-color: #1d3ecf;
+  text-decoration: none;
+}
+
+/* Drag and drop text inside dropzone */
+.marquee .dropzone p {
+  margin: 0;
+}
+
+.marquee .dropzone p strong {
+  font-family: var(--body-font-family);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+  color: #000;
+}
+
+@media (width >= 900px) {
+  .marquee .dropzone p strong {
+    font-size: 24px;
+  }
+}
+
+/* File hint text inside dropzone */
+.marquee .dropzone p:last-child {
+  font-family: var(--body-font-family);
+  font-size: 12px;
+  line-height: 17px;
+  color: #000;
+}
+
+/* ============================================
+   LEGAL TEXT - Below dropzone
+   ============================================ */
+.marquee > div > div:first-child > p:last-of-type {
+  font-family: var(--body-font-family);
+  font-size: 12px;
+  line-height: 18px;
+  color: #464646;
+  margin: 0;
+}
+
+.marquee > div > div:first-child > p:last-of-type a {
+  color: var(--link-color);
+}
+
+/* ============================================
+   DARK VARIANT - Dark background with white text
+   ============================================ */
+.marquee.dark {
+  background-color: #131313;
+}
+
+.marquee-container:has(.marquee.dark) {
+  background-color: #131313;
+}
+
+/* Dark variant - Product lockup text */
+.marquee.dark > div > div:first-child > p:first-child strong {
+  color: #fff;
+}
+
+/* Dark variant - Headline */
+.marquee.dark h1 {
+  color: #fff;
+}
+
+/* Dark variant - Description */
+.marquee.dark > div > div:first-child > p:nth-of-type(2) {
+  color: #fff;
+}
+
+/* Dark variant - Value props */
+.marquee.dark > div > div:first-child > p:nth-of-type(3) strong {
+  color: #fff;
+}
+
+/* Dark variant - Dropzone */
+.marquee.dark .dropzone {
+  background-color: rgba(247, 247, 247, 0.2);
+  border-color: #8f8f8f;
+}
+
+/* Dark variant - Dropzone text */
+.marquee.dark .dropzone p strong {
+  color: #fff;
+}
+
+.marquee.dark .dropzone p:last-child {
+  color: #fff;
+}
+
+/* Dark variant - Legal text */
+.marquee.dark > div > div:first-child > p:last-of-type {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.marquee.dark > div > div:first-child > p:last-of-type a {
+  color: #6b8aff;
+}
