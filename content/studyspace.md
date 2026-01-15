@@ -123,6 +123,126 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 
 ---
 
+## Bring your study squad.
+
+Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh at ullamcorper a. Amet aliquet purus facilisis nullam nunc
+
++----------------------------------------------------------------------+
+| Section Metadata                                                     |
++-------------+--------------------------------------------------------+
+| style       | centered, accent-bar                                   |
++-------------+--------------------------------------------------------+
+
+---
+
++-----------------------------------+------------------------------------------------------------------+
+| Cards (icon-2up)                  |                                                                  |
++-----------------------------------+------------------------------------------------------------------+
+| ![Shared space icon](/icons/shared-space.svg) | **Create a shared studyspace** Body Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. |
++-----------------------------------+------------------------------------------------------------------+
+| ![Invite anyone icon](/icons/invite-anyone.svg) | **Invite anyone** Body Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. |
++-----------------------------------+------------------------------------------------------------------+
+
+---
+
++-----------------------------------+------------------------------------------------------------------+
+| Cards (icon-2up)                  |                                                                  |
++-----------------------------------+------------------------------------------------------------------+
+| ![Comments icon](/icons/comments.svg) | **Add comments** Body Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. |
++-----------------------------------+------------------------------------------------------------------+
+| ![Tag icon](/icons/tag.svg) | **Tag your classmates** Body Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. |
++-----------------------------------+------------------------------------------------------------------+
+
+---
+
+## More ways to level up your study game.
+
+Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh at ullamcorper a. Amet aliquet purus facilisis nullam nunc integer
+
+[Start now for free](#)
+
++----------------------------------------------------------------------+
+| Section Metadata                                                     |
++-------------+--------------------------------------------------------+
+| style       | centered, accent-bar                                   |
++-------------+--------------------------------------------------------+
+
+---
+
++-----------------------------------+------------------------------------------------------------------+
+| Cards (carousel)                  |                                                                  |
++-----------------------------------+------------------------------------------------------------------+
+| ![Study Guide][carousel-img-1]    | **Study Guide**                                                  |
++-----------------------------------+------------------------------------------------------------------+
+| ![Flashcards][carousel-img-2]     | **Flashcards**                                                   |
++-----------------------------------+------------------------------------------------------------------+
+| ![Practice quiz][carousel-img-3]  | **Practice quiz**                                                |
++-----------------------------------+------------------------------------------------------------------+
+| ![Study Packet][carousel-img-4]   | **Study Packet**                                                 |
++-----------------------------------+------------------------------------------------------------------+
+
+---
+
++-----------------------------------+------------------------------------------------------------------+
+| Cards (carousel)                  |                                                                  |
++-----------------------------------+------------------------------------------------------------------+
+| ![Podcast][carousel-img-5]        | **Podcast**                                                      |
++-----------------------------------+------------------------------------------------------------------+
+| ![Video Overview][carousel-img-6] | **Video Overview**                                               |
++-----------------------------------+------------------------------------------------------------------+
+| ![Presentation][carousel-img-7]   | **Presentation**                                                 |
++-----------------------------------+------------------------------------------------------------------+
+| ![Mindmap][carousel-img-8]        | **Mindmap**                                                      |
++-----------------------------------+------------------------------------------------------------------+
+
+---
+
+## Quiz Maker FAQs
+
++----------------------------------------------------------------------+
+| Accordion                                                            |
++----------------------------------------------------------------------+
+| Heading Bold Lorem ipsum dolor sit amet, consectectur adipiscing elit | Answer content goes here. |
++----------------------------------------------------------------------+
+| Heading Bold Lorem ipsum dolor sit amet, consectectur adipiscing elit | Answer content goes here. |
++----------------------------------------------------------------------+
+| Heading Bold Lorem ipsum dolor sit amet, consectectur adipiscing elit | Answer content goes here. |
++----------------------------------------------------------------------+
+| Heading Bold Lorem ipsum dolor sit amet, consectectur adipiscing elit | Answer content goes here. |
++----------------------------------------------------------------------+
+| Heading Bold Lorem ipsum dolor sit amet, consectectur adipiscing elit | Answer content goes here. |
++----------------------------------------------------------------------+
+
+---
+
+## Use StudySpace tools for free
+
++----------------------------------------------------------------------+
+| Section Metadata                                                     |
++-------------+--------------------------------------------------------+
+| style       | centered, accent-bar, highlight                        |
++-------------+--------------------------------------------------------+
+
+---
+
++----------------------------------------------------------------------+
+| Columns                                                              |
++----------------------------------+-----------------------------------+
+| ![Compact media image][compact-media-img] | - Body Lorem ipsum dolor sit amet. |
+|                                  | - Body Lorem ipsum dolor sit amet. |
+|                                  | - Body Lorem ipsum dolor sit amet. |
+|                                  |                                   |
+|                                  | [Start free trial](#)             |
++----------------------------------+-----------------------------------+
+
++----------------------------------------------------------------------+
+| Section Metadata                                                     |
++-------------+--------------------------------------------------------+
+| style       | highlight                                              |
++-------------+--------------------------------------------------------+
+
+---
+
 +----------------------------------------------------------------------+
 | Metadata                                                             |
 +-------------+--------------------------------------------------------+
@@ -132,11 +252,20 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 |             | links into quizzes.                                    |
 +-------------+--------------------------------------------------------+
 
-[acrobat-icon]: https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/ec9e9deb-5379-4802-8401-3338523efd5c
-[video-placeholder]: https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/9428250a-3011-403e-af44-c6e205acab59
-[open-card-img-1]: https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/da6be29a-7bd5-4f7b-b5b2-d90cc15ec600
-[open-card-img-2]: https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/da6be29a-7bd5-4f7b-b5b2-d90cc15ec600
-[gallery-img-1]: https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/84d98340-42a4-4394-90c9-2942e14aae72
-[gallery-img-2]: https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/84d98340-42a4-4394-90c9-2942e14aae72
-[gallery-img-3]: https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/84d98340-42a4-4394-90c9-2942e14aae72
+[acrobat-icon]: /content/images/acrobat-icon.png
+[video-placeholder]: /content/images/video-placeholder.png
+[open-card-img-1]: /content/images/open-card-feature.png
+[open-card-img-2]: /content/images/open-card-feature.png
+[gallery-img-1]: /content/images/gallery-card.png
+[gallery-img-2]: /content/images/gallery-card.png
+[gallery-img-3]: /content/images/gallery-card.png
+[carousel-img-1]: /content/images/carousel-card.png
+[carousel-img-2]: /content/images/carousel-card.png
+[carousel-img-3]: /content/images/carousel-card.png
+[carousel-img-4]: /content/images/carousel-card.png
+[carousel-img-5]: /content/images/carousel-card.png
+[carousel-img-6]: /content/images/carousel-card.png
+[carousel-img-7]: /content/images/carousel-card.png
+[carousel-img-8]: /content/images/carousel-card.png
+[compact-media-img]: /content/images/compact-media.png
 

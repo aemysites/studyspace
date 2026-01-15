@@ -271,7 +271,8 @@ main .section.centered h2 {
   line-height: 1;
   letter-spacing: -2px;
   color: #2c2c2c;
-  margin: 0 0 16px;
+  margin: 0 auto 16px;
+  max-width: 800px;
 }
 
 @media (width >= 900px) {

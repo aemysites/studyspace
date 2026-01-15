@@ -1,10 +1,22 @@
+/* Base accordion container */
+.accordion {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
 .accordion details {
-  border: 1px solid #dadada;
+  border: none;
+  border-bottom: 1px solid #909090;
+}
+
+.accordion details:first-child {
+  border-top: 1px solid #909090;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
 .accordion details + details {
-  margin-top: 24px;
+  margin-top: 0;
 }
 
 .accordion details p {
@@ -13,16 +25,20 @@
 
 .accordion details summary {
   position: relative;
-  padding: 0 16px;
-  padding-right: 46px;
+  padding: 24px 56px 24px 16px;
   cursor: pointer;
   list-style: none;
   overflow: auto;
   transition: background-color 0.2s;
+  font-family: var(--body-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #2c2c2c;
 }
 
 .accordion details[open] summary {
-  background-color: var(--light-color);
+  background-color: transparent;
 }
 
 .accordion details summary:focus,
@@ -34,28 +50,32 @@
   display: none;
 }
 
+/* Plus icon (transforms to minus when open) */
 .accordion details summary::after {
-  content: '';
+  content: '+';
   position: absolute;
   top: 50%;
-  right: 18px;
-  transform: translateY(-50%) rotate(135deg);
-  width: 6px;
-  height: 6px;
-  border: 2px solid;
-  border-width: 2px 2px 0 0;
+  right: 16px;
+  transform: translateY(-50%);
+  font-size: 24px;
+  font-weight: 300;
+  color: #2c2c2c;
   transition: transform 0.2s;
+  width: auto;
+  height: auto;
+  border: none;
 }
 
 .accordion details[open] summary::after {
-  transform: translateY(-50%) rotate(-45deg);
+  content: '−';
+  transform: translateY(-50%);
 }
 
 .accordion details .accordion-item-body {
-  padding: 0 16px;
+  padding: 0 16px 24px;
 }
 
 .accordion details[open] .accordion-item-body {
-  border-top: 1px solid #dadada;
-  background-color: var(--background-color);
+  border-top: none;
+  background-color: transparent;
 }
