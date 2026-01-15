@@ -26,35 +26,6 @@
 
 ---
 
-+-------------------------------------------------------------------------------------------+
-| Marquee (dark)                                                                            |
-+---------------------------------------------+---------------------------------------------+
-| ![Adobe Acrobat][acrobat-icon]              | ![Quiz maker video placeholder][video-placeholder] |
-| **Adobe StudySpace**                        |                                             |
-|                                             |                                             |
-| # Quiz maker                                |                                             |
-|                                             |                                             |
-| An AI study buddy that transforms notes,    |                                             |
-| PDFs, and links into quizzes. Lorem ipsum   |                                             |
-| dolor sit amet                              |                                             |
-|                                             |                                             |
-| **Free • No download required • 1M+ happy students** |                              |
-|                                             |                                             |
-| [Select a file](#)                          |                                             |
-|                                             |                                             |
-| **Or drag and drop here**                   |                                             |
-|                                             |                                             |
-| File must be PDF and up to 50MB             |                                             |
-|                                             |                                             |
-| Your file will be securely handled by Adobe |                                             |
-| servers and deleted unless you sign in to   |                                             |
-| save it. By using this service, you agree   |                                             |
-| to the Adobe [Terms of Use](#) and          |                                             |
-| acknowledge the [Privacy Policy](#).        |                                             |
-+---------------------------------------------+---------------------------------------------+
-
----
-
 ## How to get started for free
 
 Follow these steps to create a space, flash cards, and more
@@ -84,7 +55,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 +----------------------------------------------------------------------+
 | Section Metadata                                                     |
 +-------------+--------------------------------------------------------+
-| style       | centered, accent-bar                                   |
+| style       | centered                                               |
 +-------------+--------------------------------------------------------+
 
 ---
@@ -99,6 +70,16 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 
 ---
 
++-----------------------------------+------------------------------------------------------------------+
+| Cards (open-2up)                  |                                                                  |
++-----------------------------------+------------------------------------------------------------------+
+| ![Sources feature][open-card-img-1] | **See your sources instantly** Send your quiz and invite anyone to jump in. |
++-----------------------------------+------------------------------------------------------------------+
+| ![Download feature][open-card-img-2] | **Learn on the go** Download on your phone or disconnect with a printable version of your quiz, |
++-----------------------------------+------------------------------------------------------------------+
+
+---
+
 ## Explore Study Spaces
 
 Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh at ullamcorper a. Amet aliquet purus facilisis
@@ -106,7 +87,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 +----------------------------------------------------------------------+
 | Section Metadata                                                     |
 +-------------+--------------------------------------------------------+
-| style       | centered, accent-bar                                   |
+| style       | centered                                               |
 +-------------+--------------------------------------------------------+
 
 ---
@@ -130,7 +111,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 +----------------------------------------------------------------------+
 | Section Metadata                                                     |
 +-------------+--------------------------------------------------------+
-| style       | centered, accent-bar                                   |
+| style       | centered                                               |
 +-------------+--------------------------------------------------------+
 
 ---
@@ -164,7 +145,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 +----------------------------------------------------------------------+
 | Section Metadata                                                     |
 +-------------+--------------------------------------------------------+
-| style       | centered, accent-bar                                   |
+| style       | centered                                               |
 +-------------+--------------------------------------------------------+
 
 ---
@@ -220,7 +201,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 +----------------------------------------------------------------------+
 | Section Metadata                                                     |
 +-------------+--------------------------------------------------------+
-| style       | centered, accent-bar, highlight                        |
+| style       | centered, highlight                                    |
 +-------------+--------------------------------------------------------+
 
 ---
