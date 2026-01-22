@@ -1,0 +1,314 @@
+/* stylelint-disable no-descending-specificity */
+
+/* StudySpace Hero Block */
+
+.studyspace-hero-container {
+  background-color: #eee;
+}
+
+.studyspace-hero-container .studyspace-hero-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.studyspace-hero {
+  padding: 40px 24px;
+  background-color: #eee;
+}
+
+/* Row container - two column layout */
+.studyspace-hero > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (width >= 900px) {
+  .studyspace-hero {
+    padding: 60px 32px;
+  }
+
+  .studyspace-hero > div {
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+  }
+}
+
+/* Content Column (left) */
+.studyspace-hero > div > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+}
+
+@media (width >= 900px) {
+  .studyspace-hero > div > div:first-child {
+    max-width: 500px;
+    gap: 24px;
+  }
+}
+
+/* Media Column (right) */
+.studyspace-hero > div > div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.studyspace-hero > div > div:last-child picture,
+.studyspace-hero > div > div:last-child img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #c4c4c4;
+}
+
+@media (width >= 1200px) {
+  .studyspace-hero > div > div:last-child picture,
+  .studyspace-hero > div > div:last-child img {
+    max-width: 550px;
+  }
+}
+
+/* Product Lockup - first paragraph with image */
+.studyspace-hero > div > div:first-child > p:first-child {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin: 0;
+}
+
+.studyspace-hero > div > div:first-child > p:first-child img {
+  width: 32px;
+  height: auto;
+}
+
+.studyspace-hero > div > div:first-child > p:first-child strong {
+  font-family: var(--body-font-family);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: -0.42px;
+  color: #2c2c2c;
+}
+
+/* Main Headline */
+.studyspace-hero h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -2px;
+  color: #000;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .studyspace-hero h1 {
+    font-size: 72px;
+    letter-spacing: -3px;
+  }
+}
+
+@media (width >= 1200px) {
+  .studyspace-hero h1 {
+    font-size: 96px;
+    line-height: 94px;
+    letter-spacing: -4.32px;
+  }
+}
+
+/* Description paragraph */
+.studyspace-hero > div > div:first-child > p:nth-of-type(2) {
+  font-family: var(--body-font-family);
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .studyspace-hero > div > div:first-child > p:nth-of-type(2) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+/* Value Props - bold paragraph */
+.studyspace-hero > div > div:first-child > p:nth-of-type(3) {
+  margin: 0;
+}
+
+.studyspace-hero > div > div:first-child > p:nth-of-type(3) strong {
+  font-family: var(--body-font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.6px;
+  color: #000;
+}
+
+@media (width >= 900px) {
+  .studyspace-hero > div > div:first-child > p:nth-of-type(3) strong {
+    font-size: 20px;
+  }
+}
+
+/* ============================================
+   DROPZONE - File upload area
+   ============================================ */
+.studyspace-hero .dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  background-color: #f7f7f7;
+  border: 1px dashed #8f8f8f;
+  border-radius: 24px;
+  text-align: center;
+}
+
+/* CTA Button inside dropzone */
+.studyspace-hero .dropzone .button-container {
+  margin: 0;
+}
+
+.studyspace-hero .dropzone a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px 14px;
+  background-color: #3b63fb;
+  color: #fff;
+  font-family: var(--body-font-family);
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  border-radius: 100px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 0;
+}
+
+.studyspace-hero .dropzone a.button:hover {
+  background-color: #1d3ecf;
+  text-decoration: none;
+}
+
+/* Drag and drop text inside dropzone */
+.studyspace-hero .dropzone p {
+  margin: 0;
+}
+
+.studyspace-hero .dropzone p strong {
+  font-family: var(--body-font-family);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+  color: #000;
+}
+
+@media (width >= 900px) {
+  .studyspace-hero .dropzone p strong {
+    font-size: 24px;
+  }
+}
+
+/* File hint text inside dropzone */
+.studyspace-hero .dropzone p:last-child {
+  font-family: var(--body-font-family);
+  font-size: 12px;
+  line-height: 17px;
+  color: #000;
+}
+
+/* ============================================
+   LEGAL TEXT - Below dropzone
+   ============================================ */
+.studyspace-hero > div > div:first-child > p:last-of-type {
+  font-family: var(--body-font-family);
+  font-size: 12px;
+  line-height: 18px;
+  color: #464646;
+  margin: 0;
+}
+
+.studyspace-hero > div > div:first-child > p:last-of-type a {
+  color: var(--link-color);
+}
+
+/* ============================================
+   STUDYSPACE SECTION STYLES
+   Section metadata styles for StudySpace pages
+   ============================================ */
+
+/* Centered section style */
+main .section.centered {
+  text-align: center;
+  padding: 80px 0 40px;
+  margin: 0;
+}
+
+main .section.centered h2 {
+  font-family: var(--body-font-family);
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -2px;
+  color: #2c2c2c;
+  margin: 0 auto 16px;
+  max-width: 800px;
+}
+
+@media (width >= 900px) {
+  main .section.centered h2 {
+    font-size: 64px;
+    line-height: 63px;
+    letter-spacing: -2.56px;
+  }
+}
+
+main .section.centered p {
+  font-family: var(--body-font-family);
+  font-size: 20px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  main .section.centered p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+/* Accent bar section style */
+main .section.accent-bar {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+main .section.accent-bar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: linear-gradient(90deg, #fa0f00 0%, #e9740a 15%, #ffce2e 39%, #009c3b 68%, #2799f6 86%, #6349e0 95%, #9999fc 100%);
+}

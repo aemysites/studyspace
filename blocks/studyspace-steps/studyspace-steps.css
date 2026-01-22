@@ -1,0 +1,94 @@
+/* StudySpace Steps Block - "How to get started" 3-step cards */
+
+.studyspace-steps > ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (width < 900px) {
+  .studyspace-steps > ul {
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+  }
+}
+
+.studyspace-steps > ul > li {
+  background-color: #f8f8f8;
+  border: 1px solid #e8e8e8;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  text-align: left;
+}
+
+/* Icon styling */
+.studyspace-steps .studyspace-steps-card-image {
+  margin-bottom: 8px;
+  line-height: 0;
+}
+
+.studyspace-steps .studyspace-steps-card-image img {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+/* Card body */
+.studyspace-steps .studyspace-steps-card-body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Heading */
+.studyspace-steps .studyspace-steps-card-body h3,
+.studyspace-steps .studyspace-steps-card-body strong {
+  display: block;
+  font-family: var(--body-font-family);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.6px;
+  color: #000;
+  margin: 0 0 8px;
+}
+
+@media (width >= 900px) {
+  .studyspace-steps .studyspace-steps-card-body h3,
+  .studyspace-steps .studyspace-steps-card-body strong {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.72px;
+  }
+}
+
+/* Body text */
+.studyspace-steps .studyspace-steps-card-body p {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  line-height: 24px;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .studyspace-steps .studyspace-steps-card-body p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+/* Section styling - add space below intro paragraph */
+.studyspace-steps-container .default-content-wrapper p {
+  margin-bottom: 32px;
+}

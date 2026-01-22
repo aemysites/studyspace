@@ -1,0 +1,82 @@
+/* StudySpace FAQ Block - Accordion for Quiz Maker FAQs */
+
+.studyspace-faq {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.studyspace-faq details {
+  border: none;
+  border-bottom: 1px solid #909090;
+}
+
+.studyspace-faq details:first-child {
+  border-top: 1px solid #909090;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.studyspace-faq details + details {
+  margin-top: 0;
+}
+
+.studyspace-faq details p {
+  margin-bottom: 0.8em;
+}
+
+.studyspace-faq details summary {
+  position: relative;
+  padding: 24px 56px 24px 16px;
+  cursor: pointer;
+  list-style: none;
+  overflow: auto;
+  transition: background-color 0.2s;
+  font-family: var(--body-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #2c2c2c;
+}
+
+.studyspace-faq details[open] summary {
+  background-color: transparent;
+}
+
+.studyspace-faq details summary:focus,
+.studyspace-faq details summary:hover {
+  background-color: var(--light-color);
+}
+
+.studyspace-faq details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Plus icon (transforms to minus when open) */
+.studyspace-faq details summary::after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  font-size: 24px;
+  font-weight: 300;
+  color: #2c2c2c;
+  transition: transform 0.2s;
+  width: auto;
+  height: auto;
+  border: none;
+}
+
+.studyspace-faq details[open] summary::after {
+  content: '−';
+  transform: translateY(-50%);
+}
+
+.studyspace-faq details .studyspace-faq-item-body {
+  padding: 0 16px 24px;
+}
+
+.studyspace-faq details[open] .studyspace-faq-item-body {
+  border-top: none;
+  background-color: transparent;
+}

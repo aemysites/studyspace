@@ -31,8 +31,3 @@
     order: unset;
   }
 }
-
-/* Button styling in columns */
-.columns .button-container a.button {
-  margin-left: 16px;
-}

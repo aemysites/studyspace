@@ -1,0 +1,96 @@
+/* StudySpace Tools Block - Horizontal scrolling cards (4-up) */
+
+.studyspace-tools {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+.studyspace-tools > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0 24px;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (width >= 900px) {
+  .studyspace-tools > ul {
+    padding: 0 32px;
+    overflow-x: visible;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.studyspace-tools > ul > li {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 260px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+@media (width >= 900px) {
+  .studyspace-tools > ul > li {
+    min-width: auto;
+  }
+}
+
+/* Image styling - top of card with rounded corners */
+.studyspace-tools .studyspace-tools-card-image {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.studyspace-tools .studyspace-tools-card-image img {
+  width: 100%;
+  aspect-ratio: 276 / 213;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+/* Card body */
+.studyspace-tools .studyspace-tools-card-body {
+  margin: 0;
+  padding: 16px;
+}
+
+/* Heading */
+.studyspace-tools .studyspace-tools-card-body strong {
+  display: block;
+  font-family: var(--body-font-family);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.6px;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .studyspace-tools .studyspace-tools-card-body strong {
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: -0.72px;
+  }
+}
+
+/* Body text */
+.studyspace-tools .studyspace-tools-card-body p {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #2c2c2c;
+  margin: 0;
+}

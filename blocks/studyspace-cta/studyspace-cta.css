@@ -1,0 +1,40 @@
+/* StudySpace CTA Block - Bottom CTA with image */
+
+.studyspace-cta > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.studyspace-cta img {
+  width: 100%;
+}
+
+.studyspace-cta > div > div {
+  order: 1;
+}
+
+.studyspace-cta > div > .studyspace-cta-img-col {
+  order: 0;
+}
+
+.studyspace-cta > div > .studyspace-cta-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .studyspace-cta > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .studyspace-cta > div > div {
+    flex: 1;
+    order: unset;
+  }
+}
+
+/* Button styling - moved from common columns.css */
+.studyspace-cta .button-container a.button {
+  margin-left: 16px;
+}
