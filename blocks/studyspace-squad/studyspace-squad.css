@@ -1,0 +1,84 @@
+/* StudySpace Squad Block - Horizontal icon + text (2-up) */
+
+.studyspace-squad > ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (width < 900px) {
+  .studyspace-squad > ul {
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+  }
+}
+
+.studyspace-squad > ul > li {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* Icon styling */
+.studyspace-squad .studyspace-squad-card-image {
+  margin: 0;
+  flex-shrink: 0;
+  line-height: 0;
+}
+
+.studyspace-squad .studyspace-squad-card-image img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+/* Card body */
+.studyspace-squad .studyspace-squad-card-body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Heading */
+.studyspace-squad .studyspace-squad-card-body strong {
+  display: block;
+  font-family: var(--body-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .studyspace-squad .studyspace-squad-card-body strong {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+/* Body text */
+.studyspace-squad .studyspace-squad-card-body p {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .studyspace-squad .studyspace-squad-card-body p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}

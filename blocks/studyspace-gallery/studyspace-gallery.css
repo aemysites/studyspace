@@ -1,0 +1,87 @@
+/* StudySpace Gallery Block - Image cards (3-up) */
+
+.studyspace-gallery > ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (width < 900px) {
+  .studyspace-gallery > ul {
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+  }
+}
+
+.studyspace-gallery > ul > li {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image styling - top of card */
+.studyspace-gallery .studyspace-gallery-card-image {
+  margin: 0;
+  border-radius: 0;
+  line-height: 0;
+}
+
+.studyspace-gallery .studyspace-gallery-card-image img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* Card body */
+.studyspace-gallery .studyspace-gallery-card-body {
+  margin: 0;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Heading */
+.studyspace-gallery .studyspace-gallery-card-body strong {
+  display: block;
+  font-family: var(--body-font-family);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.6px;
+  color: #000;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .studyspace-gallery .studyspace-gallery-card-body strong {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.72px;
+  }
+}
+
+/* Body text */
+.studyspace-gallery .studyspace-gallery-card-body p {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .studyspace-gallery .studyspace-gallery-card-body p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}

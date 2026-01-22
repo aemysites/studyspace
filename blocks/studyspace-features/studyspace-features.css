@@ -1,0 +1,83 @@
+/* StudySpace Features Block - Large image cards (2-up) */
+
+.studyspace-features > ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (width < 900px) {
+  .studyspace-features > ul {
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+  }
+}
+
+.studyspace-features > ul > li {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Image styling */
+.studyspace-features .studyspace-features-card-image {
+  border-radius: 16px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.studyspace-features .studyspace-features-card-image img {
+  width: 100%;
+  aspect-ratio: 584 / 390;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Card body */
+.studyspace-features .studyspace-features-card-body {
+  margin: 0;
+  padding: 16px 0 0;
+}
+
+/* Paragraph containing heading and body */
+.studyspace-features .studyspace-features-card-body p {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .studyspace-features .studyspace-features-card-body p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+/* Heading (strong inside paragraph) */
+.studyspace-features .studyspace-features-card-body strong {
+  display: block;
+  font-family: var(--body-font-family);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.6px;
+  color: #2c2c2c;
+  margin: 0 0 8px;
+}
+
+@media (width >= 900px) {
+  .studyspace-features .studyspace-features-card-body strong {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.72px;
+  }
+}

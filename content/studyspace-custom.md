@@ -1,5 +1,5 @@
 +-------------------------------------------------------------------------------------------+
-| Marquee                                                                                   |
+| StudySpace Hero                                                                           |
 +---------------------------------------------+---------------------------------------------+
 | ![Adobe Acrobat][acrobat-icon]              | ![Quiz maker video placeholder][video-placeholder] |
 | **Adobe StudySpace**                        |                                             |
@@ -31,7 +31,7 @@
 Follow these steps to create a space, flash cards, and more
 
 +-----------------------------------+------------------------------------------------------------------+
-| Cards (editorial)                 |                                                                  |
+| StudySpace Steps                  |                                                                  |
 +-----------------------------------+------------------------------------------------------------------+
 | ![Upload icon](/icons/upload.svg) | **Upload a source** Upload files including PDF, DOCX, PPTX, TXT, or RTF files, up to 100MB. |
 +-----------------------------------+------------------------------------------------------------------+
@@ -61,7 +61,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 ---
 
 +-----------------------------------+------------------------------------------------------------------+
-| Cards (open-2up)                  |                                                                  |
+| StudySpace Features               |                                                                  |
 +-----------------------------------+------------------------------------------------------------------+
 | ![Upload docs feature][open-card-img-1] | **Upload docs or create via chat** Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra. |
 +-----------------------------------+------------------------------------------------------------------+
@@ -71,7 +71,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 ---
 
 +-----------------------------------+------------------------------------------------------------------+
-| Cards (open-2up)                  |                                                                  |
+| StudySpace Features               |                                                                  |
 +-----------------------------------+------------------------------------------------------------------+
 | ![Sources feature][open-card-img-1] | **See your sources instantly** Send your quiz and invite anyone to jump in. |
 +-----------------------------------+------------------------------------------------------------------+
@@ -93,7 +93,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 ---
 
 +-----------------------------------+------------------------------------------------------------------+
-| Cards (gallery)                   |                                                                  |
+| StudySpace Gallery                |                                                                  |
 +-----------------------------------+------------------------------------------------------------------+
 | ![Get Unstuck with TED][gallery-img-1] | **Get Unstuck with TED** 4 Files · 55 flashcards · 2 study guides |
 +-----------------------------------+------------------------------------------------------------------+
@@ -117,7 +117,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 ---
 
 +-----------------------------------+------------------------------------------------------------------+
-| Cards (icon-2up)                  |                                                                  |
+| StudySpace Squad                  |                                                                  |
 +-----------------------------------+------------------------------------------------------------------+
 | ![Shared space icon](/icons/shared-space.svg) | **Create a shared studyspace** Body Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. |
 +-----------------------------------+------------------------------------------------------------------+
@@ -127,7 +127,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 ---
 
 +-----------------------------------+------------------------------------------------------------------+
-| Cards (icon-2up)                  |                                                                  |
+| StudySpace Squad                  |                                                                  |
 +-----------------------------------+------------------------------------------------------------------+
 | ![Comments icon](/icons/comments.svg) | **Add comments** Body Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. |
 +-----------------------------------+------------------------------------------------------------------+
@@ -151,7 +151,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 ---
 
 +-----------------------------------+------------------------------------------------------------------+
-| Cards (carousel)                  |                                                                  |
+| StudySpace Tools                  |                                                                  |
 +-----------------------------------+------------------------------------------------------------------+
 | ![Study Guide][carousel-img-1]    | **Study Guide**                                                  |
 +-----------------------------------+------------------------------------------------------------------+
@@ -165,7 +165,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 ---
 
 +-----------------------------------+------------------------------------------------------------------+
-| Cards (carousel)                  |                                                                  |
+| StudySpace Tools                  |                                                                  |
 +-----------------------------------+------------------------------------------------------------------+
 | ![Podcast][carousel-img-5]        | **Podcast**                                                      |
 +-----------------------------------+------------------------------------------------------------------+
@@ -181,7 +181,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 ## Quiz Maker FAQs
 
 +----------------------------------------------------------------------+
-| Accordion                                                            |
+| StudySpace FAQ                                                       |
 +----------------------------------------------------------------------+
 | Heading Bold Lorem ipsum dolor sit amet, consectectur adipiscing elit | Answer content goes here. |
 +----------------------------------------------------------------------+
@@ -207,7 +207,7 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 ---
 
 +----------------------------------------------------------------------+
-| Columns                                                              |
+| StudySpace CTA                                                       |
 +----------------------------------+-----------------------------------+
 | ![Compact media image][compact-media-img] | - Body Lorem ipsum dolor sit amet. |
 |                                  | - Body Lorem ipsum dolor sit amet. |
