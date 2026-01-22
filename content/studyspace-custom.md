@@ -248,23 +248,23 @@ Lorem ipsum dolor sit amet consectetur. Dui elit volutpat aenean viverra a nibh 
 
 [image1]: ./images/video-placeholder.png
 
-[image2]: https://main--studyspace--aemysites.aem.page/media_1dacf744137b4fc77b815ff4769bd5a7989bf1668.svg
+[image2]: ./images/upload.svg
 
-[image3]: https://main--studyspace--aemysites.aem.page/media_132a4d57eda9569302aed690f3f2fa3b3be189aaf.svg
+[image3]: ./images/customize.svg
 
-[image4]: https://main--studyspace--aemysites.aem.page/media_16e1c7464fc9fc30eb1724c44cd7f7396dd8a8669.svg
+[image4]: ./images/start.svg
 
 [image5]: ./images/open-card-feature.png
 
 [image6]: ./images/gallery-card.png
 
-[image7]: https://main--studyspace--aemysites.aem.page/media_19f7bd803ac8c1ca9ffc6004a5d107815a2baeeca.svg
+[image7]: ./images/shared-space.svg
 
-[image8]: https://main--studyspace--aemysites.aem.page/media_1ac58abf0691cf2e469c991a7bfb31475760ebbd1.svg
+[image8]: ./images/invite-anyone.svg
 
-[image9]: https://main--studyspace--aemysites.aem.page/media_139971518665790f1179902dd9cf4b3e52cbe2660.svg
+[image9]: ./images/comments.svg
 
-[image10]: https://main--studyspace--aemysites.aem.page/media_14686d2aa050ae530ec4654d3ef9b85d200ee4e3b.svg
+[image10]: ./images/tag.svg
 
 [image11]: ./images/carousel-card.png
 
