@@ -13,9 +13,6 @@
 /* Main header wrapper */
 header {
   height: var(--header-height);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
 header .nav-wrapper {
@@ -363,10 +360,7 @@ header nav .nav-app-switcher .icon {
 /* Mobile menu styles */
 @media (width < 1200px) {
   header .nav-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: relative;
   }
 
   header nav {
@@ -377,12 +371,11 @@ header nav .nav-app-switcher .icon {
   }
 
   header nav[aria-expanded='true'] {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    height: 100dvh;
+    min-height: 100vh;
     background-color: var(--header-bg);
     flex-direction: column;
     flex-wrap: nowrap;
@@ -390,6 +383,7 @@ header nav .nav-app-switcher .icon {
     justify-content: flex-start;
     overflow-y: auto;
     padding-bottom: 24px;
+    z-index: 100;
   }
 
   header nav[aria-expanded='true'] .nav-sections {
