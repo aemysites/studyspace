@@ -170,33 +170,6 @@ function decorateNavTools(navTools) {
   });
 }
 
-/**
- * Creates the app switcher icon element
- * @returns {Element} The app switcher container
- */
-function createAppSwitcher() {
-  const appSwitcher = document.createElement('div');
-  appSwitcher.className = 'nav-app-switcher';
-  appSwitcher.innerHTML = `
-    <span class="icon icon-app-switcher">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-        <circle cx="5" cy="5" r="2"/>
-        <circle cx="12" cy="5" r="2"/>
-        <circle cx="19" cy="5" r="2"/>
-        <circle cx="5" cy="12" r="2"/>
-        <circle cx="12" cy="12" r="2"/>
-        <circle cx="19" cy="12" r="2"/>
-        <circle cx="5" cy="19" r="2"/>
-        <circle cx="12" cy="19" r="2"/>
-        <circle cx="19" cy="19" r="2"/>
-      </svg>
-    </span>
-  `;
-  appSwitcher.setAttribute('aria-label', 'App switcher');
-  appSwitcher.setAttribute('role', 'button');
-  appSwitcher.setAttribute('tabindex', '0');
-  return appSwitcher;
-}
 
 /**
  * loads and decorates the header, mainly the nav
@@ -254,9 +227,6 @@ export default async function decorate(block) {
   hamburger.addEventListener('click', () => toggleMenu(nav, navSections));
   nav.prepend(hamburger);
 
-  // Create app switcher
-  const appSwitcher = createAppSwitcher();
-
   // Set initial nav state
   nav.setAttribute('aria-expanded', 'false');
   toggleMenu(nav, navSections, isDesktop.matches);
@@ -265,11 +235,6 @@ export default async function decorate(block) {
   // Create nav wrapper and assemble
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
-
-  // Insert app switcher before tools
-  if (navTools) {
-    navTools.parentNode.insertBefore(appSwitcher, navTools);
-  }
 
   navWrapper.append(nav);
   block.append(navWrapper);

@@ -135,17 +135,26 @@ header .nav-brand {
   display: flex;
   align-items: center;
   flex-shrink: 0;
+  height: 100%;
 }
 
 header .nav-brand a {
   display: flex;
   align-items: center;
+  height: 100%;
+}
+
+header .nav-brand p {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 header .nav-brand img,
 header .nav-brand .icon {
-  height: 32px;
+  height: 24px;
   width: auto;
+  vertical-align: middle;
 }
 
 header .nav-brand .icon img {
@@ -329,26 +338,6 @@ header nav .nav-tools li:last-child a:hover {
   color: var(--header-text-color);
 }
 
-/* App Switcher Icon */
-header nav .nav-app-switcher {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.15s ease;
-}
-
-header nav .nav-app-switcher:hover {
-  background-color: rgba(0, 0, 0, 0.06);
-}
-
-header nav .nav-app-switcher .icon {
-  width: 20px;
-  height: 20px;
-}
 
 /* Desktop styles */
 @media (width >= 1200px) {
@@ -465,10 +454,6 @@ header nav .nav-app-switcher .icon {
     height: 40px;
   }
 
-  /* Hide app switcher on mobile when menu is open */
-  header nav[aria-expanded='true'] .nav-app-switcher {
-    display: none;
-  }
 }
 
 /* Remove button styling from nav links */
