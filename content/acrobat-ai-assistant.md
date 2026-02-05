@@ -24,7 +24,6 @@ What if you could simply ask your documents questions—and get instant, accurat
 |---------------------|
 | ![AI summaries feature](https://www.adobe.com/acrobat/generative-ai-pdf/media_12b8aff5e5116cbc1fdd3c708598989bf3b623e57.png?width=750&format=png&optimize=medium) | ### Ask, Don't Search Type questions in plain English. AI Assistant analyzes your entire document and provides precise answers with citations to exact page numbers and sections. *"What are the termination clauses in this agreement?"* **Get answers in seconds, not hours** |
 | ![Rewrite text feature](https://www.adobe.com/acrobat/generative-ai-pdf/media_1b79d1070a66ca95ac184127d671b20e9ad9762f1.png?width=750&format=png&optimize=medium) | ### Summarize Anything Generate executive summaries, extract key takeaways, or create action item lists from reports, contracts, proposals, and research papers of any length. *"Summarize the Q4 financial report and highlight revenue concerns"* **Reduce reading time by 80%** |
-| ![Contract analysis feature](https://www.adobe.com/acrobat/generative-ai-pdf/media_16f8bb5e11148da957bf703d7a5df121c0cbe0faa.png?width=750&format=png&optimize=medium) | ### Trust Every Answer Every response includes citations to source material. Click any answer to jump directly to the relevant page and verify the information yourself. *Citations shown as "Source: Page 23, Section 4.2"* **100% traceable responses** |
 
 ---
 
@@ -37,9 +36,6 @@ What if you could simply ask your documents questions—and get instant, accurat
 | ![Open PDF step](https://www.adobe.com/acrobat/generative-ai-pdf/media_1f1ac480fbb8792382996551d198e9d7194ab8c95.jpg?width=750&format=jpg&optimize=medium) | ### 1. Open Any PDF Works with contracts, reports, research papers, ebooks—any PDF in Adobe Acrobat |
 | ![Ask question step](https://www.adobe.com/acrobat/generative-ai-pdf/media_12b8aff5e5116cbc1fdd3c708598989bf3b623e57.png?width=750&format=png&optimize=medium) | ### 2. Ask Your Question Type naturally, just like talking to a colleague. AI Assistant understands context and intent. |
 | ![Get answer step](https://www.adobe.com/acrobat/generative-ai-pdf/media_16f8bb5e11148da957bf703d7a5df121c0cbe0faa.png?width=750&format=png&optimize=medium) | ### 3. Get Verified Answers AI Assistant analyzes the document and provides accurate responses with citations to source pages. |
-| ![Take action step](https://www.adobe.com/acrobat/generative-ai-pdf/media_1fc55e027b688e5ac5db801f574004f5a224fd3d3.png?width=750&format=png&optimize=medium) | ### 4. Take Action Generate summaries, export to Word, copy responses, or ask follow-up questions to dig deeper. |
-
-**Built on Adobe Firefly AI.** Your documents never train our models. Enterprise data stays secure with SOC 2 Type II certification and industry-leading privacy protections.
 
 ---
 
@@ -55,33 +51,6 @@ What if you could simply ask your documents questions—and get instant, accurat
 | ![Custom assistant](https://www.adobe.com/acrobat/generative-ai-pdf/media_1535cc3aa55d0037a85136bcf70ac3317023aa305.png?width=750&format=png&optimize=medium) | ### Works in 100+ Languages Ask questions in your language, even if the PDF is in another language. Get accurate translations and summaries. |
 | ![Design content](https://www.adobe.com/acrobat/generative-ai-pdf/media_15918b3fc6de640ac691665fa0aad6cd5d43eb134.png?width=750&format=png&optimize=medium) | ### Automatic Source Highlighting Click any answer to jump directly to the source. Relevant text is automatically highlighted in your PDF. |
 | ![Custom images](https://www.adobe.com/acrobat/generative-ai-pdf/media_1ce020b8894ff4d423e746be1b9445093f3a345c8.png?width=750&format=png&optimize=medium) | ### Enterprise-Grade Security SOC 2 certified. Your documents and conversations stay private. No data used for model training. GDPR and CCPA compliant. |
-
----
-
-## Trusted by 2.3 Million+ Professionals Worldwide
-
-| Studyspace-Squad |
-|------------------|
-| ![Team collaboration](https://www.adobe.com/acrobat/generative-ai-pdf/media_14f05b0e90620bae877d79c16cce8858585afa195.png?width=750&format=png&optimize=medium) | ### Jennifer Park **General Counsel, FinServe Global** "AI Assistant helped our legal team review acquisition documents 10x faster. What used to take 2 days now takes 2 hours. It's completely transformed our workflow." |
-| ![Team collaboration](https://www.adobe.com/acrobat/generative-ai-pdf/media_14f05b0e90620bae877d79c16cce8858585afa195.png?width=750&format=png&optimize=medium) | ### Dr. Raj Patel **Principal Researcher, BioMed Research Institute** "I use it daily to summarize research papers. It's like having a PhD assistant who's read everything. The citation feature is crucial for academic integrity." |
-| ![Team collaboration](https://www.adobe.com/acrobat/generative-ai-pdf/media_14f05b0e90620bae877d79c16cce8858585afa195.png?width=750&format=png&optimize=medium) | ### Marcus Johnson **Managing Partner, Thompson & Associates Law** "Game-changer for contract management. We can now handle 5x more client reviews without hiring additional staff. ROI was immediate." |
-
-**2.3M+** professionals using AI Assistant | **50M+** questions answered per month | **4.8/5** stars from 15,000+ verified reviews
-
----
-
-## Real Results: Deloitte's Document Revolution
-
-**Customer Success Story**
-
-| Studyspace-Features |
-|---------------------|
-| ![PDF Spaces](https://www.adobe.com/acrobat/generative-ai-pdf/media_1710228e406e232ca3da6953818fbbdad0fe16025.png?width=750&format=png&optimize=medium) | ### 40% Reduction in Document Review Time Consultants previously spent 12+ hours per week reviewing client documents, RFPs, and research reports. |
-| ![Security privacy](https://www.adobe.com/acrobat/generative-ai-pdf/media_1532f7eed4a3a38d34528ab74dd17d36e41d1e265.png?width=750&format=png&optimize=medium) | ### $4.2M Annual Savings Productivity gains across the consulting practice led to significant cost reductions and increased billable hours. |
-| ![Security citations](https://www.adobe.com/acrobat/generative-ai-pdf/media_1adbb230829424709be79ff301f473de056a1c77a.png?width=750&format=png&optimize=medium) | ### 95% User Satisfaction Rating 2,500+ hours saved per week across the practice. Faster client deliverables led to 15% increase in client satisfaction. |
-
-*"AI Assistant has become essential to how we work. Our consultants can't imagine going back to manual document review."*
-— Sarah Mitchell, Chief Knowledge Officer, Deloitte Consulting
 
 ---
 
