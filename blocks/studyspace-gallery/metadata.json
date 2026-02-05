@@ -1,0 +1,44 @@
+{
+  "variantName": "studyspace-gallery",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-02-04T00:00:00.000Z",
+
+  "sourceContext": {
+    "source": "manual",
+    "description": "StudySpace 3-up gallery cards with images and metadata"
+  },
+
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "cards",
+    "imagePattern": "large"
+  },
+
+  "contentPattern": {
+    "structure": "top-image + heading + metadata-text (3 cards per row)",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+
+  "reuseGuidance": {
+    "suitableFor": [
+      "content gallery sections",
+      "resource libraries",
+      "template showcases",
+      "curated collection displays"
+    ],
+    "notSuitableFor": [
+      "detailed product comparisons",
+      "text-heavy content",
+      "CTA-focused sections"
+    ]
+  },
+
+  "usage": {
+    "pagesUsing": ["/content/studyspace.html"],
+    "reuseCount": 1,
+    "lastUsed": "2025-02-04T00:00:00.000Z"
+  }
+}

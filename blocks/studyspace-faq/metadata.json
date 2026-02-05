@@ -1,0 +1,44 @@
+{
+  "variantName": "studyspace-faq",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2025-02-04T00:00:00.000Z",
+
+  "sourceContext": {
+    "source": "manual",
+    "description": "StudySpace FAQ accordion with plus/minus toggle"
+  },
+
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "faq",
+    "imagePattern": "noimg"
+  },
+
+  "contentPattern": {
+    "structure": "question-summary + answer-body (expandable accordion items)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+
+  "reuseGuidance": {
+    "suitableFor": [
+      "FAQ sections",
+      "help/support pages",
+      "product Q&A",
+      "collapsible content sections"
+    ],
+    "notSuitableFor": [
+      "visual content",
+      "feature showcases",
+      "navigation menus"
+    ]
+  },
+
+  "usage": {
+    "pagesUsing": ["/content/studyspace.html"],
+    "reuseCount": 1,
+    "lastUsed": "2025-02-04T00:00:00.000Z"
+  }
+}

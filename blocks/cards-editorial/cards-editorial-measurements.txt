@@ -1,0 +1,70 @@
+VISUAL MEASUREMENT CHECKLIST FOR cards-editorial
+================================================
+Extracted from Figma node: 892:102646
+File Key: fJPQ4zdK9JbWZFlQgUX5cL
+Component Name: Open Editorial Cards - 2up
+Date: 2026-02-04
+
+LAYOUT & DIMENSIONS
+☑ Container width: 1200px (source: Size/Inline/container token)
+☑ Container height: 769px (source: metadata - component height 768.99px)
+☑ Container padding: top 32px right 0px bottom 56px left 0px (source: Top Spacer 32px, Bottom Spacer 56px)
+☑ Grid/Flex gap: 24px (source: Global/Grid/grid-gutter token)
+☑ Column count: 2 (source: visual analysis - 2up layout)
+☑ Item width: 600px (source: Component/Cards (Editorial)/single-card-width token)
+☑ Item height: auto (source: visual analysis - content-driven height)
+
+SPACING (EXACT PIXELS)
+☑ Section padding: 32px top, 56px bottom (source: Top/Bottom Spacer instances)
+☑ Item internal padding: 0px 0px 0px 0px (source: cards have no internal padding, content flush)
+☑ Gap between items: 24px (source: Global/Grid/grid-gutter token)
+☑ Margin between text elements: 8px (source: Spacing/spacing-100 token)
+☑ Image margin/padding: 0px top, 24px bottom (source: visual analysis)
+
+COLORS (EXACT HEX + OPACITY)
+☑ Background color: #ffffff (opacity: 100%) (source: Background/White, C1/Background/standard tokens)
+☑ Primary text color: #2c2c2c (source: Text/text, C1/Text/text tokens)
+☑ Secondary text color: #2c2c2c (source: mWeb/Text/text token)
+☑ Accent/link color: #3b63fb (source: C1/Content/Button/accent token)
+☑ Border color: N/A (opacity: N/A) (source: no border in design)
+☑ Hover background: N/A (source: no hover state visible)
+☑ Hover text color: N/A (source: no hover state visible)
+
+TYPOGRAPHY (ALL PROPERTIES)
+☑ Heading font-family: Adobe Clean (source: Font/adobe-clean, Font-Family/Adobe Clean tokens)
+☑ Heading font-size: 24px (source: Headings/Adobe Clean-24 token)
+☑ Heading font-weight: 800 (source: Headings/Adobe Clean-24 - Bold/weight 800)
+☑ Heading line-height: 30px (source: Tokens/Line Height/30)
+☑ Heading letter-spacing: 0px (source: no letter-spacing in tokens - normal)
+☑ Heading text-transform: none (source: visual analysis - sentence case)
+☑ Heading font-style: normal (source: no italic in Headings token)
+☑ Body font-family: Adobe Clean (source: Font/adobe-clean token)
+☑ Body font-size: 18px (source: Body/Adobe Clean-18 token)
+☑ Body font-weight: 400 (source: Body/Adobe Clean-18 - Regular weight 400)
+☑ Body line-height: 27px (source: Tokens/Line Height/27)
+☑ Body letter-spacing: 0px (source: no letter-spacing specified)
+☑ Body font-style: normal (source: Body/Adobe Clean-18 - Regular style)
+
+BORDERS & RADIUS (CRITICAL - DO NOT ASSUME)
+☑ Border width: 0px (source: no border styling in design)
+☑ Border style: none (source: no border in component)
+☑ Border color: N/A (source: no border present)
+☑ Border radius: 8px (source: Radius/corner-radius-100 token - for images)
+
+SHADOWS (EXACT VALUES)
+☑ Box-shadow offset-x: 0px (source: no shadow on cards)
+☑ Box-shadow offset-y: 0px (source: no shadow on cards)
+☑ Box-shadow blur: 0px (source: no shadow on cards)
+☑ Box-shadow spread: 0px (source: no shadow on cards)
+☑ Box-shadow color: N/A (source: no shadow present)
+
+EFFECTS & TRANSITIONS
+☑ Hover transform: none (source: no hover state in design)
+☑ Transition duration: 300ms (source: standard transition - Alias/drop-shadow/transition)
+☑ Transition timing: ease (source: standard timing)
+☑ Opacity changes: none (source: no opacity transitions)
+
+IMAGE PROPERTIES
+☑ Image border-radius: 8px (source: Radius/corner-radius-100 token)
+☑ Image aspect-ratio: auto (source: screenshots maintain natural aspect)
+☑ Image object-fit: contain (source: full screenshot visible)

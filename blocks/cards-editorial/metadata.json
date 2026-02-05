@@ -1,0 +1,47 @@
+{
+  "variantName": "cards-editorial",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-04T12:10:00.000Z",
+
+  "sourceContext": {
+    "source": "figma",
+    "figmaFileKey": "fJPQ4zdK9JbWZFlQgUX5cL",
+    "figmaNodeId": "892:102646",
+    "figmaNodeName": "Open Editorial Cards - 2up",
+    "figmaUrl": "https://www.figma.com/design/fJPQ4zdK9JbWZFlQgUX5cL/Study-Space-A.com?node-id=892:102646"
+  },
+
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature",
+    "imagePattern": "large"
+  },
+
+  "contentPattern": {
+    "structure": "large image + heading + description (2-column layout)",
+    "buttonCount": 0,
+    "imageCount": 2
+  },
+
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature showcase pages",
+      "product landing pages",
+      "app feature highlights",
+      "educational content with screenshots"
+    ],
+    "notSuitableFor": [
+      "text-heavy content without images",
+      "pages needing more than 2 columns",
+      "compact card layouts"
+    ]
+  },
+
+  "usage": {
+    "pagesUsing": ["/content/cards-editorial-demo.md"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-04T12:10:00.000Z"
+  }
+}

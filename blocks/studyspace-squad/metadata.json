@@ -1,0 +1,44 @@
+{
+  "variantName": "studyspace-squad",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2025-02-04T00:00:00.000Z",
+
+  "sourceContext": {
+    "source": "manual",
+    "description": "StudySpace 2-up horizontal icon + text feature blocks"
+  },
+
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "feature",
+    "imagePattern": "icon"
+  },
+
+  "contentPattern": {
+    "structure": "icon-left + heading + body-text (2 items per row, horizontal layout)",
+    "buttonCount": 0,
+    "imageCount": 2
+  },
+
+  "reuseGuidance": {
+    "suitableFor": [
+      "collaboration feature sections",
+      "benefit lists with icons",
+      "capability highlights",
+      "social/sharing feature explanations"
+    ],
+    "notSuitableFor": [
+      "image-heavy showcases",
+      "step-by-step processes",
+      "pricing sections"
+    ]
+  },
+
+  "usage": {
+    "pagesUsing": ["/content/studyspace.html"],
+    "reuseCount": 2,
+    "lastUsed": "2025-02-04T00:00:00.000Z"
+  }
+}
