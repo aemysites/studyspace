@@ -1,0 +1,44 @@
+{
+  "variantName": "studyspace-cta",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2025-02-04T00:00:00.000Z",
+
+  "sourceContext": {
+    "source": "manual",
+    "description": "StudySpace CTA section with image and bullet points"
+  },
+
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "cta",
+    "imagePattern": "large"
+  },
+
+  "contentPattern": {
+    "structure": "image-column + bullet-list + cta-button",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+
+  "reuseGuidance": {
+    "suitableFor": [
+      "bottom-of-page CTAs",
+      "trial signup sections",
+      "conversion-focused blocks",
+      "benefit summary with action"
+    ],
+    "notSuitableFor": [
+      "information-only sections",
+      "navigation elements",
+      "content-heavy areas"
+    ]
+  },
+
+  "usage": {
+    "pagesUsing": ["/content/studyspace.html"],
+    "reuseCount": 1,
+    "lastUsed": "2025-02-04T00:00:00.000Z"
+  }
+}

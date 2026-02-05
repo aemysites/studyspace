@@ -1,0 +1,44 @@
+{
+  "variantName": "studyspace-hero",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2025-02-04T00:00:00.000Z",
+
+  "sourceContext": {
+    "source": "manual",
+    "description": "StudySpace Quiz Maker hero section with product lockup, headline, dropzone, and media"
+  },
+
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large"
+  },
+
+  "contentPattern": {
+    "structure": "product-lockup + headline + description + value-props + dropzone + legal + media-image",
+    "buttonCount": 1,
+    "imageCount": 2
+  },
+
+  "reuseGuidance": {
+    "suitableFor": [
+      "product landing pages",
+      "tool/utility pages with file upload",
+      "SaaS product heroes",
+      "educational product pages"
+    ],
+    "notSuitableFor": [
+      "simple marketing heroes",
+      "pages without interactive elements",
+      "minimal/text-only heroes"
+    ]
+  },
+
+  "usage": {
+    "pagesUsing": ["/content/studyspace.html"],
+    "reuseCount": 1,
+    "lastUsed": "2025-02-04T00:00:00.000Z"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "variantName": "studyspace-tools",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2025-02-04T00:00:00.000Z",
+
+  "sourceContext": {
+    "source": "manual",
+    "description": "StudySpace horizontal scrolling/4-up tool cards with images"
+  },
+
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "compact",
+    "purpose": "product",
+    "imagePattern": "large"
+  },
+
+  "contentPattern": {
+    "structure": "card-image + heading (4 cards per row, scrollable on mobile)",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+
+  "reuseGuidance": {
+    "suitableFor": [
+      "tool/product showcases",
+      "feature carousels",
+      "related products sections",
+      "resource type displays"
+    ],
+    "notSuitableFor": [
+      "detailed feature explanations",
+      "text-heavy content",
+      "single product focus"
+    ]
+  },
+
+  "usage": {
+    "pagesUsing": ["/content/studyspace.html"],
+    "reuseCount": 2,
+    "lastUsed": "2025-02-04T00:00:00.000Z"
+  }
+}

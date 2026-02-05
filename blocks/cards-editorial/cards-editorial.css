@@ -1,0 +1,169 @@
+/* Cards Editorial - 2up layout migrated from Figma */
+/* Source: Open Editorial Cards - 2up (node 892:102646) */
+
+.cards-editorial {
+  /* ===== COMPONENT DESIGN TOKENS ===== */
+  /* Layout */
+  --cards-editorial-max-width: 1200px;
+  --cards-editorial-gap: 24px;
+  --cards-editorial-padding-top: 32px;
+  --cards-editorial-padding-bottom: 56px;
+  --cards-editorial-columns: 2;
+
+  /* Background */
+  --cards-editorial-background: #ffffff;
+
+  /* Card Properties */
+  --cards-editorial-card-background: transparent;
+  --cards-editorial-card-border: none;
+  --cards-editorial-card-border-radius: 0;
+
+  /* Image */
+  --cards-editorial-image-border-radius: 8px;
+  --cards-editorial-image-aspect-ratio: auto;
+
+  /* Heading Typography */
+  --cards-editorial-heading-font-family: 'Adobe Clean', var(--body-font-family);
+  --cards-editorial-heading-font-size: 24px;
+  --cards-editorial-heading-font-weight: 800;
+  --cards-editorial-heading-line-height: 30px;
+  --cards-editorial-heading-color: #131313;
+  --cards-editorial-heading-margin-top: 16px;
+
+  /* Body Typography */
+  --cards-editorial-body-font-family: 'Adobe Clean', var(--body-font-family);
+  --cards-editorial-body-font-size: 18px;
+  --cards-editorial-body-font-weight: 400;
+  --cards-editorial-body-line-height: 27px;
+  --cards-editorial-body-color: #2c2c2c;
+
+  /* Content Spacing */
+  --cards-editorial-content-gap: 8px;
+}
+
+/* Container */
+.cards-editorial > ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: var(--cards-editorial-padding-top) 0 var(--cards-editorial-padding-bottom);
+  display: grid;
+  grid-template-columns: repeat(var(--cards-editorial-columns), 1fr);
+  gap: var(--cards-editorial-gap);
+  max-width: var(--cards-editorial-max-width);
+  background: var(--cards-editorial-background);
+}
+
+/* Card Item */
+.cards-editorial > ul > li {
+  background: var(--cards-editorial-card-background);
+  border: var(--cards-editorial-card-border);
+  border-radius: var(--cards-editorial-card-border-radius);
+}
+
+/* Card Image */
+.cards-editorial .cards-editorial-card-image {
+  line-height: 0;
+  overflow: hidden;
+  border-radius: var(--cards-editorial-image-border-radius);
+}
+
+.cards-editorial > ul > li img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--cards-editorial-image-border-radius);
+}
+
+/* Card Body */
+.cards-editorial .cards-editorial-card-body {
+  padding: var(--cards-editorial-heading-margin-top) 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--cards-editorial-content-gap);
+}
+
+/* Heading */
+.cards-editorial .cards-editorial-card-body strong,
+.cards-editorial .cards-editorial-card-body h3,
+.cards-editorial .cards-editorial-card-body p:first-child strong {
+  display: block;
+  font-family: var(--cards-editorial-heading-font-family);
+  font-size: var(--cards-editorial-heading-font-size);
+  font-weight: var(--cards-editorial-heading-font-weight);
+  line-height: var(--cards-editorial-heading-line-height);
+  color: var(--cards-editorial-heading-color);
+  margin: 0;
+}
+
+/* Body Text */
+.cards-editorial .cards-editorial-card-body p {
+  font-family: var(--cards-editorial-body-font-family);
+  font-size: var(--cards-editorial-body-font-size);
+  font-weight: var(--cards-editorial-body-font-weight);
+  line-height: var(--cards-editorial-body-line-height);
+  color: var(--cards-editorial-body-color);
+  margin: 0;
+}
+
+/* Direct div structure (before JS decoration) */
+.cards-editorial {
+  max-width: var(--cards-editorial-max-width);
+  margin: 0 auto;
+  padding: var(--cards-editorial-padding-top) 0 var(--cards-editorial-padding-bottom);
+  display: grid;
+  grid-template-columns: repeat(var(--cards-editorial-columns), 1fr);
+  gap: var(--cards-editorial-gap);
+  background: var(--cards-editorial-background);
+}
+
+.cards-editorial > div {
+  background: var(--cards-editorial-card-background);
+}
+
+.cards-editorial > div > div:first-child {
+  line-height: 0;
+  overflow: hidden;
+  border-radius: var(--cards-editorial-image-border-radius);
+}
+
+.cards-editorial > div > div:first-child img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--cards-editorial-image-border-radius);
+}
+
+.cards-editorial > div > div:last-child {
+  padding: var(--cards-editorial-heading-margin-top) 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--cards-editorial-content-gap);
+}
+
+.cards-editorial > div > div:last-child strong {
+  display: block;
+  font-family: var(--cards-editorial-heading-font-family);
+  font-size: var(--cards-editorial-heading-font-size);
+  font-weight: var(--cards-editorial-heading-font-weight);
+  line-height: var(--cards-editorial-heading-line-height);
+  color: var(--cards-editorial-heading-color);
+  margin: 0;
+}
+
+.cards-editorial > div > div:last-child p {
+  font-family: var(--cards-editorial-body-font-family);
+  font-size: var(--cards-editorial-body-font-size);
+  font-weight: var(--cards-editorial-body-font-weight);
+  line-height: var(--cards-editorial-body-line-height);
+  color: var(--cards-editorial-body-color);
+  margin: 0;
+}
+
+/* Responsive - Mobile */
+@media (width < 900px) {
+  .cards-editorial,
+  .cards-editorial > ul {
+    grid-template-columns: 1fr;
+    padding: 24px 16px;
+  }
+}

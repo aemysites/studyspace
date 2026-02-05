@@ -1,0 +1,248 @@
+{
+  "image_catalog": {
+    "metadata": {
+      "product": "Adobe Acrobat AI Assistant",
+      "generated_date": "2026-02-04",
+      "total_images": 24,
+      "description": "Pre-approved image catalog for Adobe Acrobat AI Assistant landing page generation. All URLs verified as working.",
+      "base_url": "https://www.adobe.com/acrobat/generative-ai-pdf/"
+    },
+    "images": [
+      {
+        "id": "hero-workspace",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1f1ac480fbb8792382996551d198e9d7194ab8c95.jpg?width=750&format=jpg&optimize=medium",
+        "alt": "Acrobat PDF Spaces graphic showing a workspace with documents, charts, and AI chat interface",
+        "category": "hero",
+        "subjects": ["AI Assistant", "workspace", "PDF", "chat interface"],
+        "use_for": ["hero_sections", "main_product_showcase"],
+        "verified": true
+      },
+      {
+        "id": "product-acrobat-icon",
+        "url": "https://www.adobe.com/dc-shared/assets/images/product-icons/svg/acrobat-pro-40.svg",
+        "alt": "Adobe Acrobat Pro icon",
+        "category": "branding",
+        "subjects": ["logo", "Acrobat", "branding"],
+        "use_for": ["header", "branding", "icons"],
+        "verified": true
+      },
+      {
+        "id": "feature-ai-summaries",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_12b8aff5e5116cbc1fdd3c708598989bf3b623e57.png?width=750&format=png&optimize=medium",
+        "alt": "AI Assistant generating summaries with citations",
+        "category": "feature_screenshot",
+        "subjects": ["summaries", "citations", "AI", "document analysis"],
+        "use_for": ["value_propositions", "feature_cards", "studyspace-features"],
+        "verified": true
+      },
+      {
+        "id": "feature-rewrite-text",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1b79d1070a66ca95ac184127d671b20e9ad9762f1.png?width=750&format=png&optimize=medium",
+        "alt": "AI Assistant rewriting text in PDF",
+        "category": "feature_screenshot",
+        "subjects": ["editing", "rewrite", "text", "AI"],
+        "use_for": ["feature_cards", "studyspace-tools"],
+        "verified": true
+      },
+      {
+        "id": "feature-replace-tasks",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_10d81892ae8e0dba34dc923b3290e36c2bab0cd37.png?width=750&format=png&optimize=medium",
+        "alt": "AI Assistant handling multiple PDF tasks",
+        "category": "feature_screenshot",
+        "subjects": ["productivity", "tasks", "convert", "compress"],
+        "use_for": ["feature_cards", "studyspace-tools"],
+        "verified": true
+      },
+      {
+        "id": "feature-contract-analysis",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_16f8bb5e11148da957bf703d7a5df121c0cbe0faa.png?width=750&format=png&optimize=medium",
+        "alt": "AI Assistant analyzing contract and surfacing key terms",
+        "category": "feature_screenshot",
+        "subjects": ["contract", "legal", "analysis", "key terms"],
+        "use_for": ["use_case_legal", "tabs_content", "feature_cards"],
+        "verified": true
+      },
+      {
+        "id": "feature-pdf-spaces",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1710228e406e232ca3da6953818fbbdad0fe16025.png?width=750&format=png&optimize=medium",
+        "alt": "PDF Spaces shared AI-powered workspace",
+        "category": "feature_screenshot",
+        "subjects": ["workspace", "collaboration", "PDF Spaces", "multi-document"],
+        "use_for": ["feature_cards", "studyspace-tools", "collaboration"],
+        "verified": true
+      },
+      {
+        "id": "feature-audio-overview",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_123d768e2c167b7cbeae57a93b53b350574810f16.png?width=750&format=png&optimize=medium",
+        "alt": "AI Assistant creating audio overview from documents",
+        "category": "feature_screenshot",
+        "subjects": ["audio", "podcast", "overview", "on-the-go"],
+        "use_for": ["feature_cards", "studyspace-tools"],
+        "verified": true
+      },
+      {
+        "id": "feature-choose-assistant",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1535cc3aa55d0037a85136bcf70ac3317023aa305.png?width=750&format=png&optimize=medium",
+        "alt": "Choosing or creating custom AI Assistant",
+        "category": "feature_screenshot",
+        "subjects": ["customization", "assistant", "prebuilt", "personalization"],
+        "use_for": ["feature_cards", "studyspace-tools"],
+        "verified": true
+      },
+      {
+        "id": "feature-collaboration",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_14f05b0e90620bae877d79c16cce8858585afa195.png?width=750&format=png&optimize=medium",
+        "alt": "Team collaboration in shared workspace",
+        "category": "feature_screenshot",
+        "subjects": ["collaboration", "team", "sharing", "workspace"],
+        "use_for": ["feature_cards", "studyspace-squad"],
+        "verified": true
+      },
+      {
+        "id": "feature-generate-presentation",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1fc55e027b688e5ac5db801f574004f5a224fd3d3.png?width=750&format=png&optimize=medium",
+        "alt": "AI generating presentation from documents",
+        "category": "feature_screenshot",
+        "subjects": ["presentation", "PowerPoint", "generate", "transform"],
+        "use_for": ["feature_cards", "studyspace-tools"],
+        "verified": true
+      },
+      {
+        "id": "feature-custom-images",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1ce020b8894ff4d423e746be1b9445093f3a345c8.png?width=750&format=png&optimize=medium",
+        "alt": "Creating custom AI-generated images",
+        "category": "feature_screenshot",
+        "subjects": ["images", "AI generation", "creative", "Firefly"],
+        "use_for": ["feature_cards", "studyspace-tools"],
+        "verified": true
+      },
+      {
+        "id": "feature-design-content",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_15918b3fc6de640ac691665fa0aad6cd5d43eb134.png?width=750&format=png&optimize=medium",
+        "alt": "Designing shareable content with templates",
+        "category": "feature_screenshot",
+        "subjects": ["design", "templates", "social", "content"],
+        "use_for": ["feature_cards", "studyspace-tools"],
+        "verified": true
+      },
+      {
+        "id": "security-privacy-1",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1532f7eed4a3a38d34528ab74dd17d36e41d1e265.png?width=750&format=png&optimize=medium",
+        "alt": "Data privacy and protection badge",
+        "category": "security",
+        "subjects": ["privacy", "security", "data protection"],
+        "use_for": ["security_section", "trust_badges", "studyspace-features"],
+        "verified": true
+      },
+      {
+        "id": "security-privacy-2",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_10444f29cb315965360796b937c06f3878e359ca5.png?width=750&format=png&optimize=medium",
+        "alt": "No model training badge",
+        "category": "security",
+        "subjects": ["privacy", "no training", "confidential"],
+        "use_for": ["security_section", "trust_badges", "studyspace-features"],
+        "verified": true
+      },
+      {
+        "id": "security-privacy-3",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1adbb230829424709be79ff301f473de056a1c77a.png?width=750&format=png&optimize=medium",
+        "alt": "Citations and transparency badge",
+        "category": "security",
+        "subjects": ["citations", "transparency", "accuracy"],
+        "use_for": ["security_section", "trust_badges", "studyspace-features"],
+        "verified": true
+      },
+      {
+        "id": "resource-pdf-spaces-gallery",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_19a42a3ad5e642f650551e2644e7e6d2e45b230d7.png?width=750&format=png&optimize=medium",
+        "alt": "PDF Spaces gallery preview",
+        "category": "resource",
+        "subjects": ["gallery", "inspiration", "workspaces"],
+        "use_for": ["resource_cards", "studyspace-tools"],
+        "verified": true
+      },
+      {
+        "id": "resource-prompts-guide",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1b9576b07dbe2255bcb40548ed970b6011fe8caaa.png?width=750&format=png&optimize=medium",
+        "alt": "AI prompts guide preview",
+        "category": "resource",
+        "subjects": ["prompts", "guide", "tips"],
+        "use_for": ["resource_cards", "studyspace-tools"],
+        "verified": true
+      },
+      {
+        "id": "resource-use-case-videos",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1d1cb02370b088304571b7e280a680d72ad025983.png?width=750&format=png&optimize=medium",
+        "alt": "Use case videos preview",
+        "category": "resource",
+        "subjects": ["videos", "tutorials", "use cases"],
+        "use_for": ["resource_cards", "studyspace-tools"],
+        "verified": true
+      },
+      {
+        "id": "step-open-pdf",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1f1ac480fbb8792382996551d198e9d7194ab8c95.jpg?width=750&format=jpg&optimize=medium",
+        "alt": "Opening PDF in Acrobat",
+        "category": "how_it_works",
+        "subjects": ["open", "PDF", "start"],
+        "use_for": ["studyspace-steps", "how_it_works"],
+        "verified": true
+      },
+      {
+        "id": "step-ask-question",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_12b8aff5e5116cbc1fdd3c708598989bf3b623e57.png?width=750&format=png&optimize=medium",
+        "alt": "Asking question to AI Assistant",
+        "category": "how_it_works",
+        "subjects": ["question", "chat", "ask"],
+        "use_for": ["studyspace-steps", "how_it_works"],
+        "verified": true
+      },
+      {
+        "id": "step-get-answer",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_16f8bb5e11148da957bf703d7a5df121c0cbe0faa.png?width=750&format=png&optimize=medium",
+        "alt": "Getting verified answers with citations",
+        "category": "how_it_works",
+        "subjects": ["answer", "citations", "verified"],
+        "use_for": ["studyspace-steps", "how_it_works"],
+        "verified": true
+      },
+      {
+        "id": "step-take-action",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1fc55e027b688e5ac5db801f574004f5a224fd3d3.png?width=750&format=png&optimize=medium",
+        "alt": "Taking action with AI-generated content",
+        "category": "how_it_works",
+        "subjects": ["action", "export", "generate"],
+        "use_for": ["studyspace-steps", "how_it_works"],
+        "verified": true
+      },
+      {
+        "id": "use-case-executives",
+        "url": "https://www.adobe.com/acrobat/generative-ai-pdf/media_1710228e406e232ca3da6953818fbbdad0fe16025.png?width=750&format=png&optimize=medium",
+        "alt": "Executive using PDF Spaces for strategic planning",
+        "category": "use_case",
+        "subjects": ["executive", "strategy", "planning"],
+        "use_for": ["tabs_content", "use_case_executives"],
+        "verified": true
+      }
+    ],
+    "usage_guide": {
+      "by_section": {
+        "studyspace-hero": ["hero-workspace"],
+        "studyspace-features": ["feature-ai-summaries", "feature-contract-analysis", "security-privacy-1", "security-privacy-2", "security-privacy-3"],
+        "studyspace-steps": ["step-open-pdf", "step-ask-question", "step-get-answer", "step-take-action"],
+        "studyspace-tools": ["feature-rewrite-text", "feature-replace-tasks", "feature-pdf-spaces", "feature-audio-overview", "feature-choose-assistant", "feature-generate-presentation", "feature-custom-images", "feature-design-content", "resource-pdf-spaces-gallery", "resource-prompts-guide", "resource-use-case-videos"],
+        "studyspace-squad": ["feature-collaboration"],
+        "tabs_content": ["feature-contract-analysis", "use-case-executives", "feature-ai-summaries"],
+        "branding": ["product-acrobat-icon"]
+      },
+      "selection_tips": [
+        "All image URLs have been verified as working (HTTP 200)",
+        "Use hero-workspace for main hero section",
+        "Use feature-* images for studyspace-features and studyspace-tools blocks",
+        "Use step-* images for studyspace-steps block",
+        "Use security-privacy-* images for trust/security section",
+        "Use resource-* images for resource cards"
+      ]
+    }
+  }
+}

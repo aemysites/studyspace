@@ -1,0 +1,44 @@
+{
+  "variantName": "studyspace-steps",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-02-04T00:00:00.000Z",
+
+  "sourceContext": {
+    "source": "manual",
+    "description": "StudySpace 3-step onboarding cards with icons"
+  },
+
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "compact",
+    "purpose": "feature",
+    "imagePattern": "icon"
+  },
+
+  "contentPattern": {
+    "structure": "icon + heading + body-text (3 cards)",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+
+  "reuseGuidance": {
+    "suitableFor": [
+      "how-to-get-started sections",
+      "onboarding flows",
+      "step-by-step guides",
+      "process explanations"
+    ],
+    "notSuitableFor": [
+      "product showcases with large images",
+      "testimonial sections",
+      "pricing comparisons"
+    ]
+  },
+
+  "usage": {
+    "pagesUsing": ["/content/studyspace.html"],
+    "reuseCount": 1,
+    "lastUsed": "2025-02-04T00:00:00.000Z"
+  }
+}

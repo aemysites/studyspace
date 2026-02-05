@@ -1,0 +1,44 @@
+{
+  "variantName": "studyspace-features",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-02-04T00:00:00.000Z",
+
+  "sourceContext": {
+    "source": "manual",
+    "description": "StudySpace 2-up feature cards with large images and text"
+  },
+
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "feature",
+    "imagePattern": "large"
+  },
+
+  "contentPattern": {
+    "structure": "large-image + heading + body-text (2 cards per row)",
+    "buttonCount": 0,
+    "imageCount": 2
+  },
+
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature highlight sections",
+      "product capability showcases",
+      "benefit explanations with visuals",
+      "alternating content sections"
+    ],
+    "notSuitableFor": [
+      "dense information grids",
+      "icon-based feature lists",
+      "text-heavy content"
+    ]
+  },
+
+  "usage": {
+    "pagesUsing": ["/content/studyspace.html"],
+    "reuseCount": 2,
+    "lastUsed": "2025-02-04T00:00:00.000Z"
+  }
+}
